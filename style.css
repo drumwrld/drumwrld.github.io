@@ -21,6 +21,10 @@ header {
     border-bottom: 3px solid black;
 }
 
+img {
+	object-fit:scale-down;
+}
+
 .logo-container,
 .nav-links,
 .social {
