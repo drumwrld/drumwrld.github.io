@@ -101,7 +101,7 @@ nav {
 }
 
 .schedule{
-    float: inline-end;
+    justify-content: flex-start;
     padding: 20px 0px 0px 0px;
 }
 
