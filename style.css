@@ -29,6 +29,7 @@ img {
 .nav-links,
 .social {
 	display: flex;
+	justify-content: center;
 }
 
 .logo-container {
@@ -49,7 +50,8 @@ nav {
 	flex: 2;
 }
 .nav-links {
-	justify-content: space-evenly;
+	display: flex;
+	justify-content: flex-start;
 	list-style: none;
 }
 .nav-link {
@@ -57,6 +59,7 @@ nav {
 	font-size: 18px;
     font-weight: bolder;
 	text-decoration: none;
+	margin: 10px;
 }
 
 .social {
@@ -80,12 +83,12 @@ nav {
   }
 .intro-text p {
 	margin-top: 5px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .services {
 	padding: 20px 0px 0px 0px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .platforms {
 	justify-content: space-around;
@@ -116,7 +119,7 @@ td, th {
 .cover {
 	flex: 1;
 	display: flex;
-	justify-content: center;
+	justify-content: right;
 	height: 45vh;
 }
 
